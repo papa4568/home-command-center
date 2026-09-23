@@ -29,6 +29,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.FilterChip
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -95,6 +96,7 @@ private enum class AppTab(val label: String) {
     SHOP("Shop")
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeCommandApp() {
     val context = androidx.compose.ui.platform.LocalContext.current
