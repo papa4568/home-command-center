@@ -17,7 +17,8 @@ This file is the implementation source of truth. Work the highest-value unchecke
 - [x] Persist completed tasks locally on device.
 - [x] Add unit tests for dependency logic.
 - [x] Add GitHub Actions workflow that tests, builds, and uploads a debug APK.
-- [ ] Verify CI passes and the generated APK installs/launches.
+- [x] Verify CI passes and the generated APK is structurally valid.
+- [ ] Smoke-test install and launch on a physical Android device.
 
 ## V0.2 — Make the data editable
 
